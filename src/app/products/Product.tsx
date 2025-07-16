@@ -42,8 +42,9 @@ export default function Product({ product, onDelete }: ProductProps) {
       </div>
 
       <button
-        onClick={() => onDelete(product.id)}
-        className="bg-red-500 text-white px-3 py-1 rounded hover:bg-red-600 transition"
+      // TODO: call onDelete and pass the product id
+        onClick={() => {}} 
+        className="bg-blue-500 text-white px-3 py-1 rounded hover:bg-red-600 transition"
       >
         Delete
       </button>
